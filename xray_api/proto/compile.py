@@ -28,7 +28,7 @@ def compile_proto_from_source(dist):
     print("Latest version is", latest)
 
     # version = 'v4.45.2'
-    version = latest
+    version = 'v1.8.1'
 
     print("Downloading source", version, "...")
     download_url = f'https://github.com/XTLS/xray-core/archive/refs/tags/{version}.tar.gz'
